@@ -1,0 +1,4 @@
+displayName = Stories from Terraria
+author = Nakano15
+version = 0.1
+modReferences = nterrautils
