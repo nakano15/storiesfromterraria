@@ -1,1 +1,6 @@
-
+Items: {
+	BandOfHealingSurge: {
+		DisplayName: Band Of Healing Surge
+		Tooltip: Restores 40% of Life if your Life goes under 40%.
+	}
+}
