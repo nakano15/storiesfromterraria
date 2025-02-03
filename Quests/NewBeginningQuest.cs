@@ -33,7 +33,7 @@ public class NewBeginningQuest : ModularQuestBase
         SetStepExpReward(1, 40f);
         SetStepCoinReward(Copper: 50);
         AddNewQuestStep();
-        AddTalkObjective(GuideNPC, "You got some wood, and that's nice. Since you got some wood, then you should try making a Workbench with it.\nThe Workbench will allow you to craft more things than you could do by hand.\nOpen your inventory and craft yourself a Workbench with the wood you got.");
+        AddTalkObjective(GuideNPC, "Since you got some wood, then you should try making a Workbench with it.\nThe Workbench will allow you to craft more things than you could do by hand.\nOpen your inventory and craft yourself a Workbench with the wood you got.");
         SetQuestStepStoryText("The Guide seems to want to talk to me.", "The Guide told me that I should be able to craft a Workbench with the Wood I got.\nHe told me that it would help me crafting more things that I can't make by hand.");
         AddNewQuestStep();
         AddItemCollectionObjective(ItemID.WorkBench, 1, false);

@@ -10,7 +10,8 @@ namespace storiesfromterraria
 {
 	public class storiesfromterraria : Mod
 	{
-        public override void Load()
+
+        public override void PostSetupContent()
         {
 			nterrautils.QuestContainer.AddQuestContainer(this, new QuestContainer());
         }
