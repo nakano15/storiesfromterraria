@@ -10,7 +10,7 @@ public class WhenTheNightComesQuest : ModularQuestBase
     public override bool IsQuestActive(QuestData data)
     {
         Terraria.Player p = MainMod.GetPlayerCharacter();
-        return p.statLifeMax >= 120 && p.statDefense >= 4 && QuestContainer.HasQuestBeenCompleted(QuestContainer.NewBeginningQuest, "storiesfromterraria");
+        return QuestContainer.HasQuestBeenCompleted(QuestContainer.NewBeginningQuest, "storiesfromterraria");
     }
 
     public override string StoryStartLore => "The night was going to be upon us anytime soon, so I should prepare myself for it.";

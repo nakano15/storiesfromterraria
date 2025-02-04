@@ -13,13 +13,18 @@ public class GettingCraftyQuest : ModularQuestBase
 
     public override string StoryEndLore => "This should be the basic I need to know about crafting, and I should make use of that to make better equipment for my journey.";
 
+    public override bool IsQuestActive(QuestData data)
+    {
+        return QuestContainer.HasQuestBeenCompleted(QuestContainer.NewBeginningQuest, "storiesfromterraria");
+    }
+
     const int GuideID = NPCID.Guide;
 
     public int OreCollection = 80;
 
     public GettingCraftyQuest()
     {
-        AddTalkObjective(GuideID, "If you're planning on going on an adventure, then you can't go simply like that, with your body clothing only, unless you're like those crazy people that does things for views. You need proper equipment.\nTo have proper equipment, you need to have the furnitures specialized for helping you with crafting them.\nTo begin with, go Underground, and gather some Ores you find in your exploration. As many as you can find is handy.");
+        AddTalkObjective(GuideID, "If you're planning on going on an adventure, then you can't go simply like that: With only your body clothing. Unless you're like those people that does crazy things for views. You need proper equipment.\nTo have proper equipment, you need to have the furnitures specialized for helping you with crafting them.\nTo begin with, go Underground, and gather some Ores you find in your exploration. As many as you can find is handy.");
         SetQuestStepStoryText("I should find the Guide. He might have some useful tips for me.", "The Guide told me that I can't go venturing without proper equipment. He said that I need to craft furnitures specialized for crafting such gears, and that to begin with, I should get some Ores underground.");
         AddNewQuestStep();
         AddItemCollectionObjective([ ItemID.CopperOre, ItemID.TinOre, ItemID.IronOre, ItemID.LeadOre, ItemID.SilverOre, ItemID.TungstenOre, ItemID.GoldOre, ItemID.PlatinumOre ], "Ores", OreCollection, false);

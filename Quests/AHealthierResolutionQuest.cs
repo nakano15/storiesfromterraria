@@ -28,12 +28,12 @@ public class AHealthierResolutionQuest : ModularQuestBase
         AddNewQuestStep();
         AddMaxHealthObjective(120);
         AddNewQuestStep();
-        AddTalkObjective(GuideID, "I can see that you've found and used a Life Crystal. Spare me of the details of how you used it, what matters if that now you got healthier.\nThat should help you survive more when exploring. It seems like there's a limit to how many of those you can use, but I can't pinpoint what is it, so my guess is... Find and use them until you can't anymore.");
+        AddTalkObjective(GuideID, "I can see that you've found and used a Life Crystal. Spare me of the details of how you used it, what matters is that now you got healthier.\nThat should help you survive more when exploring. It seems like there's a limit to how many of those you can use, but I can't pinpoint what is it, so my guess is... Find and use them until you can't anymore.");
         SetQuestStepStoryText("I have found and used a Life Crystal. Better I let the Guide know about this.", "The Guide noticed that I've used a Life Crystal. Good thing I didn't had to explain how.\nAnyways, he said that I should be able to survive longer now, and that looking for more of them should be handy.\nHe doesn't know if there's any limit to Life Crystal usage so.. Better I look for as many as I can, and use until I can't anymore.");
         SetStepExpReward(6, 40f);
         SetStepCoinReward(Silver: 1, Copper: 20);
         AddNewQuestStep();
-        AddTalkObjective(GuideID, "Ah, good thing you showed up. I've met someone wandering in the woods, who seems to be looking for a place to stay.\nMaybe we can persuade her to stay here, if you get a house for her.\nCould you build one house for that person?");
+        AddTalkObjective(GuideID, "Ah, good thing you showed up. I've met someone wandering in the woods, who seems to be looking for a place to stay.\nMaybe we can persuade her to stay here, if you get her a house.\nCould you build one house for that person?");
         SetQuestStepStoryText("", "I was told by the Guide that there is someone looking for a place to stay in the wilds.\nI should build her a house to bring her here.");
         AddNewQuestStep();
         AddNpcMoveInObjective(NurseID);
