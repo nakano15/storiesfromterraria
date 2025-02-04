@@ -1,0 +1,24 @@
+This mod adds quests for you to do on Terraria.
+Those quests will give you golds, sometimes items, and also experience 
+for mods like N Experience.
+
+This mod is in development, and will have more quests added in the future.
+
+You can find the discord of the mod bellow if you have questions:
+https://discord.gg/Bz6vwUa7X3
+
+And you can also join the Steam Group chat, if you want to find updates on your activities feed 
+when I launch an update, or to join the group chat:
+https://steamcommunity.com/groups/Nakano15-Modding
+
+If you're looking for a service to host your Terraria playthrough with friends, then know that you 
+can get 25% off your first month from renting a server from BisectHosting.
+Just use the code "nakano15" on the link bellow upon renting a server.
+https://bisecthosting.com/nakano15
+
+The mod source can be found here, if you're curious:
+https://github.com/nakano15/storiesfromterraria
+
+If you like what I do, check my game projects:
+https://nakano15.itch.io
+
