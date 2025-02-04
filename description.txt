@@ -1,8 +1,9 @@
-This mod adds quests for you to do on Terraria.
+This mod adds N Terraria style quests for you to do on Terraria.
 Those quests will give you golds, sometimes items, and also experience 
 for mods like N Experience.
 
-This mod is in development, and will have more quests added in the future.
+This mod is still in development, and will have more quests added in the future.
+Do give me feedback if you like how the quests are offered.
 
 You can find the discord of the mod bellow if you have questions:
 https://discord.gg/Bz6vwUa7X3
@@ -21,4 +22,3 @@ https://github.com/nakano15/storiesfromterraria
 
 If you like what I do, check my game projects:
 https://nakano15.itch.io
-
