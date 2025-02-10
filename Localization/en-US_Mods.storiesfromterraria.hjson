@@ -3,4 +3,9 @@ Items: {
 		DisplayName: Band Of Healing Surge
 		Tooltip: Restores 40% of Life if your Life goes under 40%.
 	}
+
+	GrenadesBundle: {
+		DisplayName: Grenades Bundle
+		Tooltip: ""
+	}
 }

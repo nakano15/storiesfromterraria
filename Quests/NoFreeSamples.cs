@@ -14,7 +14,7 @@ public class NoFreeSamples : ModularQuestBase
 
     public override bool IsQuestActive(QuestData data)
     {
-        return NPC.AnyNPCs(NPCID.Merchant);
+        return NPC.AnyNPCs(NPCID.Merchant) || (data as ModularQuestData).Step > 0;
     }
 
     const int MerchantID = NPCID.Merchant;

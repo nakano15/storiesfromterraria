@@ -9,7 +9,8 @@ public class QuestContainer : nterrautils.QuestContainer
         WhenTheNightComesQuest = 1,
         AHealthierResolutionQuest = 2,
         NoFreeSamplesQuest = 3,
-        GettingCraftyQuest = 4;
+        GettingCraftyQuest = 4,
+        BoomQuest = 5;
     
     protected override void CreateQuestDB()
     {
@@ -18,5 +19,6 @@ public class QuestContainer : nterrautils.QuestContainer
         AddQuest(AHealthierResolutionQuest, new AHealthierResolutionQuest());
         AddQuest(NoFreeSamplesQuest, new NoFreeSamples());
         AddQuest(GettingCraftyQuest, new GettingCraftyQuest());
+        AddQuest(BoomQuest, new BoomQuest());
     }
 }
