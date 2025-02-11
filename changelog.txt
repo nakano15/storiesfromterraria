@@ -1,1 +1,2 @@
-Made it load after TerraGuardians mod, to avoid the mod dialogue changes from breaking.
+New Quests Added:
+ => "Boom!" from the Demolitionist.

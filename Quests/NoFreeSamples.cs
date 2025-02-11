@@ -1,8 +1,6 @@
-using Ionic.Zip;
 using nterrautils;
 using Terraria;
 using Terraria.ID;
-using Terraria.ModLoader;
 
 namespace storiesfromterraria.Quests;
 
