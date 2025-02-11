@@ -24,7 +24,7 @@ public class DreadIsInTheAirQuest : ModularQuestBase
 
     public DreadIsInTheAirQuest()
     {
-        AddTalkObjective(DryadID, "You must be aware that there is a place in this world that shouldn't exist, and I'm talking about the Crimson.\nThe Crimson is like the disease of this world, the gangrena that infests this place, and it must be cured.\nI need you to brave that place and erradicate " + EaterOfSoulsKills + " Eater of Souls.\nDon't let them injure you, or else they will try to suck out your soul.");
+        AddTalkObjective(DryadID, "You must be aware that there is a place in this world that shouldn't exist, and I'm talking about the Corruption.\nThe Corruption is like the disease of this world, the gangrena that infests this place, and it must be cured.\nI need you to brave that place and erradicate " + EaterOfSoulsKills + " Eater of Souls.\nDon't let them injure you, or else they will try to suck out your soul.");
         AddNewQuestStep();
         AddHuntObjective(NPCID.EaterofSouls, EaterOfSoulsKills);
         AddNewQuestStep();
@@ -48,8 +48,9 @@ public class DreadIsInTheAirQuest : ModularQuestBase
         AddNewQuestStep();
         AddHuntObjective(NPCID.EaterofWorldsHead, 1);
         AddNewQuestStep();
-        AddTalkObjective(DryadID, "I felt that. You killed something hungry and furious in the Underground Crimson, right? It seems like breaking those crystals infuriated that disease of a place. Good job.\nWhat you can do now is look for other areas with Corruption to break their crystals. That should help our world last longer.");
+        AddTalkObjective(DryadID, "I felt that. You killed something hungry and furious in the Underground Corruption, right? It seems like breaking those crystals infuriated that disease of a place. Good job.\nWhat you can do now is look for other areas with Corruption to break their crystals. That should help our world last longer.");
         SetStepExpReward(24, 35f);
         SetStepCoinReward(Silver: 8, Copper: 40);
+        //Need unique item reward.
     }
 }
