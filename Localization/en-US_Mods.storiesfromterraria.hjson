@@ -6,6 +6,21 @@ Items: {
 
 	GrenadesBundle: {
 		DisplayName: Grenades Bundle
-		Tooltip: ""
+		Tooltip: Better than throwing one grenade at a time.
+	}
+
+	CorruptPendant: {
+		DisplayName: Corrupt Pendant
+		Tooltip: Increases Ranged and Magic Damage, and also increases Melee Speed.
+	}
+
+	CrimsonPendant: {
+		DisplayName: Crimson Pendant
+		Tooltip: Increased Melee and Summon Damage, and also increases Defense.
+	}
+
+	NecklaceofTwoEvils: {
+		DisplayName: Necklace of Two Evils
+		Tooltip: Increases Melee, Ranged, Magic and Summon Damage, and also increases Defense and Melee Speed.
 	}
 }

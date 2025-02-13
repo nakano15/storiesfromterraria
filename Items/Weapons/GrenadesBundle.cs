@@ -27,7 +27,7 @@ public class GrenadesBundle : ModItem
         Item.noUseGraphic = true;
         Item.noMelee = true;
         Item.value = Item.buyPrice(0, 0, 60);
-        Item.rare = ItemRarityID.Blue;
+        Item.rare = 7;
     }
 
     public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
