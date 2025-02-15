@@ -14,7 +14,7 @@ public class CrimsonPendant : ModItem
         Item.maxStack = 1;
         Item.accessory = true;
         Item.value = Item.sellPrice(0, 0, 40);
-        Item.rare = ItemRarityID.LightRed;
+        Item.rare = ItemRarityID.Orange;
     }
 
     const float IncreaseDamage = .07f;

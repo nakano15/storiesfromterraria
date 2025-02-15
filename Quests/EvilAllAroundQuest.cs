@@ -1,6 +1,7 @@
 using nterrautils;
 using Terraria;
 using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace storiesfromterraria.Quests;
 
@@ -31,6 +32,6 @@ public class EvilAllAroundQuest : ModularQuestBase
         AddNewQuestStep();
         AddTalkObjective(DryadID, "For now, that's all I got to ask from you. I hope this reward might be handy for your adventures, since it's a Dryad trinket. Farewell, Terrarian.");
         SetQuestStepStoryText("I managed to help the Dryad with a mission regarding the evils of this world. Better I talk with her again.", "I spoke with the Dryad again after helping her with a task regarding one of the world evils, and she gave me a Dryad trinket as reward.");
-        //Need unique item reward.
+        AddStepItemReward(ModContent.ItemType<Items.Accessory.DryadGuardianSapling>());
     }
 }

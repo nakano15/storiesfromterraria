@@ -23,4 +23,13 @@ Items: {
 		DisplayName: Necklace of Two Evils
 		Tooltip: Increases Melee, Ranged, Magic and Summon Damage, and also increases Defense and Melee Speed.
 	}
+
+	DryadGuardianSapling: {
+		DisplayName: Dryad Guardian Sapling
+		Tooltip:
+			'''
+			May fire leaves when you use an item.
+			Increases Health Regeneration overtime.
+			'''
+	}
 }

@@ -15,7 +15,7 @@ public class DreadIsInTheAirQuest : ModularQuestBase
 
     public override bool IsQuestActive(QuestData data)
     {
-        return !WorldGen.crimson && (PlayerMod.GetPlayerQuestData(MainMod.GetPlayerCharacter(), QuestContainer.EvilAllAroundQuest, "storiesfromterraria") as ModularQuestData).Step >= 1;
+        return (!WorldGen.crimson || Main.drunkWorld) && (PlayerMod.GetPlayerQuestData(MainMod.GetPlayerCharacter(), QuestContainer.EvilAllAroundQuest, "storiesfromterraria") as ModularQuestData).Step >= 1;
     }
 
     const int DryadID = NPCID.Dryad;

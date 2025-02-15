@@ -33,7 +33,6 @@ public class GrenadesBundle : ModItem
     public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
     {
         Vector2 PlayerCenter = position;
-        Vector2 AimPosition = Main.screenPosition + new Vector2(Main.mouseX, Main.mouseY);
         float[] Rotations = [MathF.Atan2(-velocity.Y, velocity.X) + MathHelper.ToRadians(90f), 0, 0, 0, 0];
         Rotations[1] = Rotations[0] - MathHelper.ToRadians(-Main.rand.NextFloat(5f, 15f));
         Rotations[2] = Rotations[0] - MathHelper.ToRadians(Main.rand.NextFloat(5f, 15f));

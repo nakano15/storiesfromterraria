@@ -1,5 +1,5 @@
 displayName = [Alpha]Stories from Terraria
 author = Nakano15
-version = 0.1.0.1
+version = 0.2
 modReferences = nterrautils
 sortAfter = terraguardians
