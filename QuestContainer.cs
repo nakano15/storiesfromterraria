@@ -13,7 +13,8 @@ public class QuestContainer : nterrautils.QuestContainer
         BoomQuest = 5,
         EvilAllAroundQuest = 6,
         DreadIsInTheAirQuest = 7,
-        TheWorldsFleshWoundQuest = 8;
+        TheWorldsFleshWoundQuest = 8,
+        PoisonedQuest = 9;
     
     protected override void CreateQuestDB()
     {
@@ -26,5 +27,6 @@ public class QuestContainer : nterrautils.QuestContainer
         AddQuest(EvilAllAroundQuest, new EvilAllAroundQuest());
         AddQuest(DreadIsInTheAirQuest, new DreadIsInTheAirQuest());
         AddQuest(TheWorldsFleshWoundQuest, new TheWorldsFleshWoundQuest());
+        AddQuest(PoisonedQuest, new PoisonedQuest());
     }
 }
